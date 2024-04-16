@@ -1,0 +1,158 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+@font-face {
+  font-family: "Bubble Garden";
+  src: url("fonts/BubbleGardenBold-Yz7d4.ttf");
+}
+
+@font-face {
+  font-family: "Boldena";
+  src: url("fonts/BoldenaBold-VGjmz.ttf");
+}
+
+@font-face {
+  font-family: "Quick Kiss";
+  src: url("fonts/QuickKissPersonalUse-PxlZ.ttf");
+}
+
+#homepage {
+	position: absolute;
+	background-color: #D6EBD6;
+	/*This is the background color for everything*/
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+}
+
+#leftPanel {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 25%;
+	height: 100%;
+	background-color: #80ab82;
+}
+
+#adPanel {
+	position: absolute;
+	background-color: #4a7249;
+	bottom: 0%;
+	right: 0%;
+	width: 15%;
+	height: 60%;
+}
+
+#cookie {
+	position: absolute;
+	bottom: 5%;
+	left: 10%;
+	width: 83%;
+	height: 90%;
+}
+
+.avatar {
+  position: absolute;
+  background: none;
+  border: none;
+  vertical-align: middle;
+  width: 55%;
+  height: 55%;
+  border-radius: 50%;
+}
+
+#profileDiv {
+	position: absolute;
+	background-color: transparent;
+	top: 0%;
+	right: 0%;
+	width: 13%;
+	height: 30%;
+}
+
+.mainButtons,
+.optionsButton {
+	position: absolute;
+	background-color: #243d35;
+	color: #f8f8ff;
+	border-radius: 40px;
+	height: 8%;
+	width: 70%;
+	left: 15%;
+	font-size: 2vw;
+	font-family: "Boldena";
+	/* font-weight: bold; */
+}
+
+.optionsButton {
+	color: #1f212b;
+	border-radius: 40px;
+	height: 20vw;
+	width: 50vw;
+	left: 30vw;
+	top: 70vw;
+	font-size: 50%;
+}
+
+#quizlitButton {
+	position: absolute;
+	background-color: #80ab82;
+	color: #f8f8f8;
+	font-size: 7vw;
+	height: 20%;
+	width: 90%;
+	left: 4%;
+	top: 3%;
+	border: transparent;
+	font-family: "Bubble Garden";
+}
+
+#myDecksButton {
+	top: 30%;
+}
+
+#flashcardButton {
+	top: 40%;
+}
+
+#learnButton {
+	top: 50%;
+}
+
+#testButton {
+	top: 60%;
+}
+
+#meteorButton {
+	top: 70%;
+}
+
+#profileButton {
+  position: absolute;
+	background: none;
+	border: none;
+  width: 80%;
+  height: 80%;
+}
+
+
+#advertisement {}
+
+
+#addDeckButton {
+	position: absolute;
+	top: 28%;
+	left: 45%;
+	background: none;
+	border: none;
+}
+
+#noDeck {
+  position: absolute;
+  top: 70%;
+  left: 47%;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
