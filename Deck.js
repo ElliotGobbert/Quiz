@@ -7,15 +7,42 @@ class Deck {
 	
 	Tldr: call this.deckName and this.cards to use them as class variables
 	*/
-	constructor(deckName, cards) {//Cards should be Card[] object(s)
+	constructor(deckName, cards) {//Deckname --> String, Cards --> Card[] object
 		this.deckName = deckName;
 		this.cards = cards;
+		this.activated = false;
 	}
-	constructor(deckName) {
+	constructor(deckName) {//Deckname --> String
 		this.deckName = deckName;
 		cards = [];
+		this.activated = false;
 	}
-	addCard(card) {//Should be Card object
+	//Adds a card to the end of the card array
+	addCard(card) {//Card --> Card object
 		this.cards.push(card);
+	}
+	//Adds a card at a certain index in the card array
+	addCard(card, index) {//Card --> Card object, Index --> Int
+		this.cards.splice(index, 0, card);
+	}
+	//Removes card based on the index
+	removeCard(index) {//Index --> Int
+		this.cards.splice(index, 1);
+	}
+	//Removes card based on the question
+	removeCard(question) {//Question --> String
+		for (let index = 0; index < this.cards.length; index++) {
+			if (question === cards[index].question) {
+				this.cards.splice(index, 1);
+			}
+		}
+	}
+	//Removes card based on the answer
+	removeCard(answer) {//Answer --> String
+		for (let index = 0; index < this.cards.length; index++) {
+			if (answer === cards[index].answer) {
+				this.cards.splice(index, 1);
+			}
+		}
 	}
 }
