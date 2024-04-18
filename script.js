@@ -36,3 +36,11 @@ function goToMeteor() {
 	console.log("Going to meteor");
 }
 meteorButton.addEventListener('click', goToMeteor);
+
+function clearScreen(elementID) {
+	var div = document.getElementById(elementID);
+	div.style.visibility = "hidden";
+	// while (div.firstChild) {
+	// 	div.removeChild(div.firstChild);
+	// }
+}

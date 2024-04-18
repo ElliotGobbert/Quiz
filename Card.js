@@ -8,12 +8,15 @@ class Card {
 	}
 	constructor(question) {
 		this.question = question;
+		this.answer = "";
 	}
 	constructor(answer) {
 		this.answer = answer;
+		this.question = "";
 	}
 	constructor() {
-		
+		this.question = "";
+		this.answer = "";
 	}
 	isCorrect(possibleAnswer) {
 		if (possibleAnswer === answer) {
