@@ -12,12 +12,14 @@ quizlitButton.addEventListener('click', goToHome);
 function goToMyDecks() {
 	console.log("Going to my decks");
 }
-addDeckButton.addEventListener('click', goToHome);
-myDecksButton.addEventListener('click', goToHome);
+addDeckButton.addEventListener('click', goToMyDecks);
+myDecksButton.addEventListener('click', goToMyDecks);
 function goToProfile() {
 	console.log("Going to profile");
 }
-profileButton.addEventListener('click', goToProfile);
+settingsButton.addEventListener('click', goToProfile);
+accountButton.addEventListener('click', goToProfile);
+supportButton.addEventListener('click', goToProfile);
 function goToFlashcards() {
 	console.log("Going to flashcards");
 }
