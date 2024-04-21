@@ -1,0 +1,77 @@
+#optionsDiv, #questionDiv {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  height: 70%;
+  width: 45%;
+  border-radius: 10%;
+  padding: 2%;
+  visibility: hidden;
+}
+
+#optionsDiv {
+  background-color: #79847a;
+  color: white;
+}
+
+#questionDiv {
+  background-color: white;
+}
+
+#deckName {
+  font-size: 4vh;
+}
+
+#header {
+  font-size: 6vh;
+}
+
+p {
+  font-size: 3vh;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  height: 8%;
+  text-align: center;
+}
+
+.options p {
+  position: relative;
+  bottom: 30%;
+}
+
+#numberInput {
+  width: 5%;
+}
+
+#startTestButton {
+  position: absolute;
+  top: 85%;
+  right: 5%;
+  height: 10%;
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 30%;
+  font-size: 2vh;
+}
+
+#nextButton {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  height: 10%;
+  width: 20%;
+  border: none;
+  background-color: white;
+}
+
+#arrowImg {
+  position: relative;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+}

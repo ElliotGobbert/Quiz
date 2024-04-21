@@ -1,22 +1,12 @@
 class Card {
 	//Call this.question and this.answer for the class-variables
 
-	//Question/answer should be strings
-	constructor(question, answer) {
+	//Question/answer->strings, image->Image object; MDN Notes: https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/Image
+	
+	constructor(question = null, answer = null, image = null) {
 		this.question = question;
 		this.answer = answer;
-	}
-	constructor(question) {
-		this.question = question;
-		this.answer = "";
-	}
-	constructor(answer) {
-		this.answer = answer;
-		this.question = "";
-	}
-	constructor() {
-		this.question = "";
-		this.answer = "";
+		this.image = image;
 	}
 	isCorrect(possibleAnswer) {
 		if (possibleAnswer === answer) {

@@ -6,10 +6,6 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Quizlit!</title>
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="flashcards/flashcardsStyle.css">
-	<link rel="stylesheet" href="learn/learnStyle.css">
-	<link rel="stylesheet" href="meteor/meteorStyle.css">
-	<link rel="stylesheet" href="myDecks/myDecksStyle.css">
 	<link rel="stylesheet" href="test/testStyle.css">
 </head>
 
@@ -50,13 +46,47 @@
 			<img id="cookie" src="./images/cookieAd.jpg" />
 		</div>
 
+		<div id=testPanel>
+			<div id="questionDiv">
+				<p id="questionText"></p>
+				<p id="questionDirections"></p>
+				<button id="nextButton"><img id="arrowImg" src="test/images/arrow.png" /></button>
+			</div>
+			<div id="optionsDiv">
+				<h3 id="deckName">Deck Name</h3>
+				<h1 id="header">Set up your test</h1>
+				<div class="options">
+					<p>Number of Questions</p>
+					<input id="numberInput" type="number" />
+				</div>
+				<div class="options">
+					<p>Answer with</p>
+					<select>
+						<option value="Definition">Definition</option>
+						<option value="Term">Term</option>
+					</select>
+				</div>
+				<hr />
+				<div class="options">
+					<p>True/False</p>
+					<input type="checkbox" />
+				</div>
+				<div class="options">
+					<p>Multiple Choice</p>
+					<input type="checkbox" />
+				</div>
+				<div class="options">
+					<p>Writing</p>
+					<input type="checkbox" />
+				</div>
+				<button id="startTestButton"><b>Start Test!</b></button>
+			</div>
+		</div>
 
 	</div>
+	<script src="Deck.js"></script>
+	<script src="Card.js"></script>
 	<script src="script.js"></script>
-	<script src="flashcards/flashcardsScript.js"></script>
-	<script src="learn/learnScript.js"></script>
-	<script src="meteor/meteorScript.js"></script>
-	<script src="myDecks/myDecksScript.js"></script>
 	<script src="test/testScript.js"></script>
 </body>
 
