@@ -6,11 +6,7 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Quizlit!</title>
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="flashcards/flashcardsStyle.css">
-	<link rel="stylesheet" href="learn/learnStyle.css">
 	<link rel="stylesheet" href="meteor/meteorStyle.css">
-	<link rel="stylesheet" href="myDecks/myDecksStyle.css">
-	<link rel="stylesheet" href="test/testStyle.css">
 </head>
 
 <body>
@@ -51,13 +47,20 @@
 		</div>
 
 
+
 	</div>
+	<div id="meteorPanel">
+		<img id="meteor" src="./images/volcano.jpg" />
+		<textarea id="input" name="input" rows="1" cols="80"></textarea>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.16.2/phaser.min.js"></script>
+	<script src="Deck.js"></script>
+	<script src="Card.js"></script>
 	<script src="script.js"></script>
-	<script src="flashcards/flashcardsScript.js"></script>
-	<script src="learn/learnScript.js"></script>
-	<script src="meteor/meteorScript.js"></script>
-	<script src="myDecks/myDecksScript.js"></script>
-	<script src="test/testScript.js"></script>
+	<script src="/meteor/Meteor.js"></script>
+	<script src="/meteor/MeteorGame.js"></script>
+
 </body>
 
 </html>

@@ -74,7 +74,7 @@ html {
 #dropDownHolder {
 	position: absolute;
 	top: 85%;
-	left: 20%;
+	left: 25%;
 }
 .mainButtons {
 	position: absolute;
@@ -185,7 +185,6 @@ html {
 	height: 25%;
 	color: white;
 }
-
 #quizlitButton {
 	position: absolute;
 	background-color: #80ab82;
