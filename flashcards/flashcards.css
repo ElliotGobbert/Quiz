@@ -1,0 +1,31 @@
+/*Card flipping animation: https://www.w3schools.com/howto/howto_css_flip_card.asp*/
+#flashcardsDiv {
+  position: absolute;
+  background-color: transparent;
+  top: 15%;
+  left: 30%;
+  width: 50%;
+  height: 80%;
+  visibility: hidden;
+}
+
+#deckName {
+  position: absolute;
+  left: 45%;
+  top: 15%;
+}
+
+#instructions {
+  position: absolute;
+  left: 27%;
+  top: 80%;
+}
+
+#flashcard {
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  width: 60%;
+  height: 45%;
+  border-radius: 5%;
+}

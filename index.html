@@ -6,11 +6,11 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Quizlit!</title>
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="flashcards/flashcardsStyle.css">
-	<link rel="stylesheet" href="learn/learnStyle.css">
-	<link rel="stylesheet" href="meteor/meteorStyle.css">
-	<link rel="stylesheet" href="myDecks/myDecksStyle.css">
-	<link rel="stylesheet" href="test/testStyle.css">
+	<link rel="stylesheet" href="flashcards/flashcards.css">
+	<link rel="stylesheet" href="learn/learnStyle.js">
+	<link rel="stylesheet" href="meteor/meteorStyle.js">
+	<link rel="stylesheet" href="myDecks/myDecksStyle.js">
+	<link rel="stylesheet" href="test/testStyle.js">
 </head>
 
 <body>
@@ -30,6 +30,12 @@
 			<button id="addDeckButton"> <img id="addDeckImg" src="./images/addButton.png"> </button>
 			<p id="noDeck">You have no decks</p>
 
+		</div>
+
+		<div id="flashcardsDiv">
+			<p id="deckName">Jaden Li</p>
+			<button id="flashcard">Flashcard</button>
+			<p id=instructions>Click the flashcard to flip or go to the next one!</p>
 		</div>
 
 		<div id="profileDiv">
@@ -52,6 +58,8 @@
 
 
 	</div>
+	<script src="Deck.js"></script>
+	<script src="Card.js"></script>
 	<script src="script.js"></script>
 	<script src="flashcards/flashcardsScript.js"></script>
 	<script src="learn/learnScript.js"></script>

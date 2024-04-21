@@ -7,14 +7,9 @@ class Deck {
 	
 	Tldr: call this.deckName and this.cards to use them as class variables
 	*/
-	constructor(deckName, cards) {//Deckname --> String, Cards --> Card[] object
+	constructor(deckName = null, cards = []) {//Deckname --> String, Cards --> Card[] object
 		this.deckName = deckName;
 		this.cards = cards;
-		this.activated = false;
-	}
-	constructor(deckName) {//Deckname --> String
-		this.deckName = deckName;
-		cards = [];
 		this.activated = false;
 	}
 	//Adds a card to the end of the card array
