@@ -3,18 +3,18 @@ html {
 	width: 100%;
 }
 @font-face {
-  font-family: "Bubble Garden";
-  src: url("fonts/BubbleGardenBold-Yz7d4.ttf");
+	font-family: "Bubble Garden";
+	src: url("fonts/BubbleGardenBold-Yz7d4.ttf");
 }
 
 @font-face {
-  font-family: "Boldena";
-  src: url("fonts/BoldenaBold-VGjmz.ttf");
+	font-family: "Boldena";
+	src: url("fonts/BoldenaBold-VGjmz.ttf");
 }
 
 @font-face {
-  font-family: "Quick Kiss";
-  src: url("fonts/QuickKissPersonalUse-PxlZ.ttf");
+	font-family: "Quick Kiss";
+	src: url("fonts/QuickKissPersonalUse-PxlZ.ttf");
 }
 
 #homepage {
@@ -54,13 +54,13 @@ html {
 }
 
 .avatar {
-  position: absolute;
-  background: none;
-  border: none;
-  vertical-align: middle;
-  width: 80%;
-  height: 80%;
-  border-radius: 50%;
+	position: absolute;
+	background: none;
+	border: none;
+	vertical-align: middle;
+	width: 80%;
+	height: 80%;
+	border-radius: 50%;
 }
 
 #profileDiv {
@@ -74,7 +74,7 @@ html {
 #dropDownHolder {
 	position: absolute;
 	top: 85%;
-	left: 20%;
+	left: 25%;
 }
 .mainButtons {
 	position: absolute;
@@ -90,7 +90,6 @@ html {
 /* Style The Dropdown Button TEMP*/
 .dropbtn {
 	background-color: #4CAF50;
-	border-radius: 40px;
 	color: white;
 	padding: 16px;
 	font-size: 16px;
@@ -110,26 +109,22 @@ html {
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: none;
+	background-color: #f9f9f9;
 	min-width: 160px;
-	/* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
-	height: 150%;
-	width: 100%;
-	left: -40%;
-	/* background-color: #4CAF50; */
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-	color: white;
+	color: black;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: none}
+.dropdown-content a:hover {background-color: #f1f1f1}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -139,51 +134,6 @@ html {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
 	background-color: #3e8e41;
-}
-
-#settingsButton {
-	position: absolute;
-	background-color: #3e8e41;
-	border-radius: 40px;
-	border:none;
-	top: 0%;
-	left: 0%;
-	width: 100%;
-	height: 25%;
-	color: white;
-}
-#accountButton {
-	position: absolute;
-	background-color: #3e8e41;
-	border-radius: 40px;
-	border:none;
-	top: 25%;
-	left: 0%;
-	width: 100%;
-	height: 25%;
-	color: white;
-} 
-#supportButton {
-	position: absolute;
-	background-color: #3e8e41;
-	border-radius: 40px;
-	border:none;
-	top: 50%;
-	left: 0%;
-	width: 100%;
-	height: 25%;
-	color: white;
-}
-#logOutButton {
-	position: absolute;
-	background-color: #3e8e41;
-	border-radius: 40px;
-	border:none;
-	top: 75%;
-	left: 0%;
-	width: 100%;
-	height: 25%;
-	color: white;
 }
 
 #quizlitButton {
@@ -223,24 +173,24 @@ html {
 	position: absolute;
 	top: 25%;
 	left: 42%;
-  height: 50%;
-  width: 23%;
+	height: 50%;
+	width: 23%;
 	background: none;
 	border: none;
 }
 
 #addDeckImg {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  height: 100%;
-  width: 100%;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 100%;
+	width: 100%;
 }
 
 #noDeck {
-  position: absolute;
-  top: 78%;
-  left: 47%;
-  font-size: 1.5vw;
-  font-family: "Boldena";
+	position: absolute;
+	top: 78%;
+	left: 47%;
+	font-size: 1.5vw;
+	font-family: "Boldena";
 }
