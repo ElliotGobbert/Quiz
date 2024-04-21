@@ -6,11 +6,7 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Quizlit!</title>
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="flashcards/flashcardsStyle.css">
-	<link rel="stylesheet" href="learn/learnStyle.css">
-	<link rel="stylesheet" href="meteor/meteorStyle.css">
 	<link rel="stylesheet" href="myDecks/myDecksStyle.css">
-	<link rel="stylesheet" href="test/testStyle.css">
 </head>
 
 <body>
@@ -50,14 +46,32 @@
 			<img id="cookie" src="./images/cookieAd.jpg" />
 		</div>
 
+		<div id="myDecksScreen">
+			<button id="addButton" class="newDeckButton"> Create Deck! </button>
+
+			<div id="makeQuestions">
+				<form action="/url" method="GET">
+					<p>Term:</p>
+					<input type="text">
+					<p>Definition:</p>
+					<input type="text">
+				</form>
+				<p>Optional Image:</p>
+				<input type="file" name="myImage" accept="image/png, image/gif, image/jpeg" />
+				</label>
+				<button id=saveButton>Save</button>
+        <button id="addQButton"> <img id="addDeckImg" src="./images/addQButton.png"> </button>
+        <button id="removeQButton"> <img id="addDeckImg" src="./images/removeQButton.png"> </button>
+			</div>
+
+		</div>
+
 
 	</div>
+	<script src="Deck.js"></script>
+	<script src="Card.js"></script>
 	<script src="script.js"></script>
-	<script src="flashcards/flashcardsScript.js"></script>
-	<script src="learn/learnScript.js"></script>
-	<script src="meteor/meteorScript.js"></script>
 	<script src="myDecks/myDecksScript.js"></script>
-	<script src="test/testScript.js"></script>
 </body>
 
 </html>
